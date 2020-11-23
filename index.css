@@ -1,0 +1,129 @@
+ 
+ *{
+   margin: 4px;
+   padding: 0px;
+ }  
+ #container{
+   min-height: 100%;
+ }
+
+  ul 
+   {
+    list-style-type: row;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+  .main-nav li
+    {
+      float: right;
+      list-style: none;
+      margin-top: auto;
+    }
+  .main-nav li
+    {
+       color: white;
+       text-decoration: none;
+       padding: 10px ;
+       Font-family:'Roboto',Georgia,'Times New Roman',serif;
+       font-weight: 500;
+       font-size: 1.21em;
+    }
+   .center 
+    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      padding-top: 70px;
+        }
+
+        html, body{
+          background-color: #D6EAF8;
+        }
+          
+  h1
+    {
+      font-family: 'Quattrocento', Georgia, 'Times New Roman', Times, sans-serif;
+      font-weight: 700;
+       margin: 0;
+       text-align: left;
+        text-indent: 90px;
+    }  
+  
+  h2 
+    {
+      Font-family:'Roboto',Georgia,'Times New Roman',serif;
+      font-weight: 700;
+      font-size: 1.21em;
+      word-spacing: .24em;
+      margin: 0;
+      text-align: left;
+      padding-top: 5px;  
+   }
+
+ h3
+ {
+   font-family: 'Quattrocento', Georgia, 'Times New Roman', Times, sans-serif;
+   font-weight: 400;
+   font-size: 1.141em;
+   word-spacing: .54em;
+   margin: 0;
+   text-align: left;
+   padding-top: 5px;   
+  text-indent: 30px;
+}
+    
+    p {
+        font-family:'Quattrocento',Georgia,'Times New Roman',serif;
+        font-weight:400;
+        line-height: 1.4em;
+        font-size: 1.141em;
+        word-spacing: .5em;
+        margin: 0;
+        text-align: left;
+        padding-top: 15px;   
+        text-indent: 30px;
+      } 
+
+      a
+      {
+        font-family:'Quattrocento',Georgia,'Times New Roman',serif;
+        text-align: center;
+      }
+       a{
+        font-size: 1.25em;
+        font-weight: bold;
+         color:#4f3674;
+         text-decoration: none;
+      }
+       a:hover 
+       {
+        background-color:#D6A800;
+      }
+       
+       .sentence 
+       {
+        font-style: italic;
+        font-family: 'Roboto', Georgia, 'Times New Roman', Times, sans-serif;
+        font-weight: 500;
+        color:black
+      }
+      *{
+        box-sizing: border-box;
+      }
+      .ima
+      {
+       float: left;
+       width: 33.33%
+       padding-top: 15px;   
+      }
+      
+    #footer 
+    {
+      background-color: lightskyblue;
+      position: relative;
+      height: 100px;
+      margin-top: -100px;
+      clear: both
+    }
