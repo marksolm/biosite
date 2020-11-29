@@ -112,18 +112,22 @@
       *{
         box-sizing: border-box;
       }
-      .ima
-      {
-       float: left;
-       width: 33.33%
-       padding-top: 15px;   
+      .images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: ipx;
+        margin-bottom: 100px;
       }
       
     #footer 
     {
       background-color: lightskyblue;
       position: relative;
-      height: 100px;
+      height: 50px;
       margin-top: -100px;
       clear: both
     }
+    #top {
+      float: right;
+      margin-bottom: 5px;
+  }
