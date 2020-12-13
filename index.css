@@ -1,27 +1,31 @@
  
- *{
-   margin: 4px;
-   padding: 0px;
+ body{
+   margin: 0;
+   background-color: #D6EAF8;
  }  
  #container{
-   min-height: 100%;
+   margin-left: 10px;
+   margin-right: 10px;
  }
-
   ul 
    {
     list-style-type: row;
     margin: 0px;
     padding: 0px;
     }
+    header{
+      background-color: lightskyblue;
+      padding: 12px;
+      width: 100%;
+      border-bottom: 10px solid #c0c0c0;
+      border-top: 10px solid #c0c0c0;
+    }
     
   .main-nav li
     {
-      float: right;
-      list-style: none;
-      margin-top: auto;
-    }
-  .main-nav li
-    {
+       float: right;
+       list-style: none;
+       margin-top: auto;
        color: white;
        text-decoration: none;
        padding: 10px ;
@@ -31,27 +35,26 @@
     }
    .center 
     {
-      display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
-      padding-top: 70px;
+      width: 35%;
+      padding-top: 120px;
+     
         }
 
-        html{
-          background-color: #D6EAF8;
-        }
+       
     .main-picture{
       border-radius: 35%;
     }
   h1
     {
-      color: #0A043C;
-      font-family: 'Quattrocento', Georgia, 'Times New Roman', Times, sans-serif;
-      font-weight: 700;
+       color: #0A043C;
+       font-family: 'Quattrocento', Georgia, 'Times New Roman', Times, sans-serif;
+       font-weight: 700;
+       font-size: 2.2em;
        margin: 0;
        text-align: left;
-        text-indent: 90px;
+       text-indent: 90px;
     }  
   
   h2 
@@ -62,8 +65,12 @@
       font-size: 1.21em;
       word-spacing: .24em;
       margin: 0;
-      text-align: left;
+      text-align: center;
       padding-top: 5px;  
+      background-color:#c0c0c0;
+   }
+   h2:hover{
+     color: white;
    }
 
  h3
@@ -75,7 +82,7 @@
    margin: 0;
    text-align: left;
    padding-top: 5px;   
-  text-indent: 30px;
+   text-indent: 30px;
 }
     
     p {
@@ -94,14 +101,12 @@
       {
         font-family:'Quattrocento',Georgia,'Times New Roman',serif;
         text-align: center;
-      }
-       a{
         font-size: 1.25em;
         font-weight: bold;
          color:#000080	;
          text-decoration: none;
       }
-       a:hover 
+      a:hover 
        {
         background-color:#f0f8ff;
       }
@@ -127,14 +132,21 @@
            font-size: .75em;
            font-weight: 700;
       }
+      figcaption{
+        font-family: 'Quattrocento', Georgia, 'Times New Roman', Times, sans-serif;
+        font-weight: 400;
+        text-align: center;
+        color: #0A043C;
+        font-size: 1.50em;
+
+      }
       
     #footer 
     {
       background-color: lightskyblue;
-      position: relative;
-      height: 50px;
-      margin-top: -100px;
-      clear: both
+      padding: 12px;
+      border-top: 10px solid #c0c0c0		;
+      border-bottom: 10px solid #c0c0c0		;
     }
    .top {
       float: right;
