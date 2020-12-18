@@ -23,7 +23,7 @@
     
   .main-nav li
     {
-       float: right;
+       float: left;
        list-style: none;
        margin-top: auto;
        color: white;
@@ -149,6 +149,6 @@
       border-bottom: 10px solid #c0c0c0		;
     }
    .top {
-      float: right;
-      margin-bottom: 5px;
-  }
+    float: right;
+    margin-bottom: 5px;
+   }
