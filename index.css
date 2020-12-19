@@ -155,3 +155,11 @@
 .button {
   float: left;
 }
+#copyright {
+ text-align: center;
+ color: #0A043C;
+ font-family: 'Quattrocento', Georgia, 'Times New Roman', Times, sans-serif;
+       font-weight: 400;
+       font-size: 1.2em;
+       margin: 0;
+}
